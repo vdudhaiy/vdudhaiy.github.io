@@ -1,0 +1,37 @@
+title: Vatsal Dudhaiya
+email: vatsaldudhaiya@gmail.com
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Get to know Vatsal Dudhaiya
+baseurl: ""
+url: "https://vdudhaiy.github.io"
+github_username:  vdudhaiy
+linkedin: https://www.linkedin.com/in/vatsal-dudhaiya
+instagram: https://www.instagram.com/vatsal_dudhaiya
+
+permalink: pretty
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+header_pages:
+  - experiences.md
+  - projects.md
+  - coursework.md
+  - more.md
+  
+
+collections:
+  coursework:
+    output: true
+    permalink: /coursework/:name/
+
+  projects:
+    output: true
+    permalink: /projects/:name/
+  
+  experiences:
+    output: true
+    permalink: /experiences/:name/
+  
+  
