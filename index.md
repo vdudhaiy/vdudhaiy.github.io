@@ -16,7 +16,7 @@ last_updated: 2025-12-26
         Hello there! I'm Vatsal, and I'm currently an undergraduate student at Purdue University studying Computer Engineering with concentrations in AI/ML, Software Engineering, and Computer Systems.
     </p>
     <p>
-        My exposure to research through my <a href="{{ '/experiences/sap/' | relative_url }}">internship at SAP</a> and <a href="{{ '/experiences/vip/' | relative_url }}">my work with the Tao Research Group</a> at Purdue has strengthened my desire to pursue a master’s degree, and I am currently in the process of applying to masters programs in the US. 
+        My exposure to research through my <a href="{{ '/experience/sap/' | relative_url }}">internship at SAP</a> and <a href="{{ '/experience/vip/' | relative_url }}">my work with the Tao Research Group</a> at Purdue has strengthened my desire to pursue a master’s degree, and I am currently in the process of applying to masters programs in the US. 
     </p>
     <p>
         My long-term goal is to develop scalable, intelligent systems that apply AI to address real-world problems in communication and software development. 
