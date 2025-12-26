@@ -1,7 +1,7 @@
 ---
 role: Undergraduate Student Researcher
 employer: Purdue University
-location: West Lafeyette, IN
+location: West Lafayette, IN
 start_date: 2024-08-25
 layout: default
 summary: I am a member of the AI Omics research team with Dr. W. Andy Tao at Purdue University currently working on developing a statistical analysis application for proteomics research for reserachers at the Tao Research Group.

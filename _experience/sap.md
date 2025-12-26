@@ -5,7 +5,7 @@ location: Singapore
 start_date: 2024-05-06
 end_date: 2024-07-26
 layout: default
-summary: I was a Data Science Developer Intern at SAP Singapore working in the Personalized Recommendations team. My work involved performing several benchmarking experiments pertaining to training and finetuning foundational models for PR.
+summary: I was a Data Science Developer Intern at SAP Singapore working in the Personalized Recommendations (PR) team. My work involved performing several benchmarking experiments pertaining to training and finetuning foundational models for PR.
 last_updated: 2025-12-26
 ---
 
