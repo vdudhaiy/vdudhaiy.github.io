@@ -1,7 +1,7 @@
 ---
 layout: page
 title: More About Me
-permalink: /more
+permalink: /more/
 ---
 
 # Leadership Experience

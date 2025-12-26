@@ -5,8 +5,8 @@ email: vatsaldudhaiya@gmail.com
 baseurl: ""
 url: "https://vdudhaiy.github.io"
 github_username:  vdudhaiy
-linkedin: https://www.linkedin.com/in/vatsal-dudhaiya
-instagram: https://www.instagram.com/vatsal_dudhaiya
+linkedin_username: vatsal-dudhaiya
+instagram_username: vatsal_dudhaiya
 
 permalink: pretty
 
@@ -15,7 +15,7 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - experiences.md
+  - experience.md
   - projects.md
   - coursework.md
   - more.md
@@ -30,8 +30,8 @@ collections:
     output: true
     permalink: /projects/:name/
   
-  experiences:
+  experience:
     output: true
-    permalink: /experiences/:name/
+    permalink: /experience/:name/
   
   
