@@ -5,10 +5,10 @@ location: West Lafayette, IN
 start_date: 2024-08-25
 layout: default
 summary: I am a member of the AI Omics research team with Dr. W. Andy Tao at Purdue University currently working on developing a statistical analysis application for proteomics research for reserachers at the Tao Research Group.
-last_updated: 2025-12-26
+last_updated: 2025-12-27
 ---
 
-# Data Science Developer Intern
+# Undergraduate Student Researcher
 {% if page.start_date %} {{ page.start_date | date: "%b %-d, %Y" }}{% endif %}
 {% if page.end_date %} — {{ page.end_date | date: "%b %-d, %Y" }}
 {% else %} — Present {% endif %}
