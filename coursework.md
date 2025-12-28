@@ -2,19 +2,27 @@
 layout: page
 title: Coursework
 permalink: /coursework/
+last_updated: 2025-12-28
 --- 
+<p style="text-align: right;">
+  <small>Last Updated: {{ page.last_updated | date: "%b %-d, %Y" }}</small>
+</p>
+
 # Purdue University
 #### Bachelor of Science in Computer Engineering
-{% assign semester_map = "Spring:1,Fall:2,Summer:3" | split: "," %}
-{% assign sorted_courses = site.coursework | sort: "semester_order" | sort: "year" | reverse %}
+
+**Relevant Coursework:**
+{% assign sorted_courses = site.coursework | sort: "sort_key" %}
 
 <ul>
-  {% for course in site.coursework %}
+  {% for course in sorted_courses %}
     <li>
-      <a href="{{ courses.url | relative_url }}">{{ course.code }} : {{ course.title }}</a>
+      <a href="{{ course.url | relative_url }}">{{ course.code }} : {{ course.title }}</a>
       <small>({{course.semester}} {{ course.year}})</small>
-      <p>{{course.summary}}</p>
+      <p>Grade Secured: {{course.grade}}</p>
 
     </li>
   {% endfor %}
 </ul>
+
+_Click on the course to learn more._
