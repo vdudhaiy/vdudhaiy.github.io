@@ -17,7 +17,6 @@ plugins:
 header_pages:
   - experience.md
   - projects.md
-  - coursework.md
   - more.md
   
 

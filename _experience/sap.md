@@ -5,8 +5,8 @@ location: Singapore
 start_date: 2024-05-06
 end_date: 2024-07-26
 layout: default
-summary: I was a Data Science Developer Intern at SAP Singapore working in the Personalized Recommendations (PR) team. My work involved performing several benchmarking experiments pertaining to training and finetuning foundational models for PR.
-last_updated: 2025-12-26
+summary: Data Science Developer Intern at SAP Singapore in the Personalized Recommendations team — achieving an 82.63% hit-rate improvement via LLM-augmented embeddings and placing 88/721 globally in the SAP GenAI Hackathon.
+last_updated: 2026-06-02
 ---
 
 # Data Science Developer Intern
@@ -18,13 +18,13 @@ last_updated: 2025-12-26
   <small>Last Updated: {{ page.last_updated | date: "%b %-d, %Y" }}</small>
 </p>
 
-I was a Data Science Developer Intern at [SAP](https://www.sap.com/sea/index.html) Singapore working in the Personalized Recommendations team. My work involved performing several benchmarking experiments pertaining to training and finetuning foundational models for PR.
- 
-My experience as an intern allowed me to gain a deeper understanding of the AI, and I learnt so much more about Generative AI, LLMs, neural networks, deep learning, and recommendation models.
+I was a Data Science Developer Intern at [SAP](https://www.sap.com/sea/index.html) Singapore working in the **Personalized Recommendations (PR)** team. My work focused on developing ML-driven recommendation systems, with a particular emphasis on using LLMs to improve item feature representations.
 
-I was able to enhance several key skills such as PyTorch, Python programming, LangChain, prompt engineering, data analysis, data science, and technical documentation. 
+## Key contributions
 
-I also had the opportunity to participate in the GenAI Hackathon organized by SAP Labs, which allowed me to put my newly learnt skills to the test. All ideas were voted upon internally and our idea was ranked in the top 13% of ideas submitted globally.
+- Designed and ran experiments fine-tuning **transformer-based models** for item feature recommendation. By using LLM-augmented item embeddings, I achieved an **82.63% improvement in top-25 hit rate** over a non-LLM baseline — a significant uplift that validated the LLM-augmented approach for production use.
+- Gained hands-on experience with **LLMs, prompt engineering, and LangChain** for production-oriented ML workflows.
+- Participated in the **SAP Global GenAI Hackathon** (July 2024). Our team — **SuccessSculptors** — built an AI-powered interview assistant using GPT-4o that generates tailored interview questions and model answers from a candidate's CV and job description. We finished **88th out of 721 teams globally** (top 12%). My contributions included prompt engineering for the chatbot, question generation logic (with category-specific options), and dynamic question updating based on user feedback.
 
 <hr style="border: 1px solid #ccc; margin: 3rem 0;">
 

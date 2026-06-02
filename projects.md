@@ -3,6 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 --- 
+Here's a list of my technical projects. Click on the project to learn more. 
 
 {% assign sorted_projects = site.projects | sort: "start_date" | reverse %}
 <ul>
